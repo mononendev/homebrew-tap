@@ -7,7 +7,7 @@ cask "omniview@nightly" do
   desc "Open-source, pluggable IDE for Kubernetes and DevOps (mononendev rolling build)"
   homepage "https://github.com/mononendev/omniview"
 
-  conflicts_with cask: "omniview"
+  conflicts_with cask: "mononendev/tap/omniview"
   depends_on arch: :arm64
   depends_on :macos
 
